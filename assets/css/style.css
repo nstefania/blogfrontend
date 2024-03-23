@@ -28,7 +28,7 @@ img {
 .container_general1{
   height: 500px;
   width: 1300px;
-  background-color: aqua;
+  /*background-color: aqua;*/
   margin-left: 20px;
   display: flex;
   
@@ -71,7 +71,7 @@ img {
 .container_general2 {
   height: 800px;
   width: 1300px;
-  background-color: chartreuse;
+  /*background-color: chartreuse;*/
   margin-left: 20px;
   
 }
@@ -79,7 +79,7 @@ img {
 .container_populares {
   height: 800px;
   width: 700px;
-  background-color: brown;
+  /*background-color: brown;*/
   float: left;
   display: block;
   
@@ -96,18 +96,20 @@ img {
   height: 150px;
 }
 
+/*categorias*/
+
 .container_categorias {
   float: left;
   height: 800px;
   width: 500px;
   margin-left: 100px;
-  background-color: burlywood;
+  /*background-color: burlywood;*/
   display: block;
 }
 
 .container_posts1 {
   width: 350px;
-  height: 100px;
+  height: 90px;
   background-color: red;
   margin-left: 30px;
   margin-top: 20px;
@@ -116,8 +118,8 @@ img {
 }
 .container_posts2 {
   width: 350px;
-  height: 100px;
-  background-color: yellow;
+  height: 90px;
+  background-color: rgb(235, 217, 120);
   margin-left: 30px;
   margin-top: 20px;
   border-radius: 1em;
@@ -125,7 +127,7 @@ img {
 }
 .container_posts3 {
   width: 350px;
-  height: 100px;
+  height: 90px;
   background-color: rgb(41, 166, 183);
   margin-left: 30px;
   margin-top: 20px;
@@ -134,7 +136,7 @@ img {
 }
 .container_posts4 {
   width: 350px;
-  height: 100px;
+  height: 90px;
   background-color: black;
   margin-left: 30px;
   margin-top: 20px;
@@ -143,7 +145,7 @@ img {
 }
 .container_posts5 {
   width: 350px;
-  height: 100px;
+  height: 90px;
   background-color: rgb(99, 199, 139);
   margin-left: 30px;
   margin-top: 20px;
@@ -152,7 +154,7 @@ img {
 }
 .container_posts6 {
   width: 350px;
-  height: 100px;
+  height: 90px;
   background-color: rgb(91, 27, 160);
   margin-left: 30px;
   margin-top: 20px;
@@ -160,20 +162,28 @@ img {
   
 }
 #logocategoria {
-  width: 80px;
+  width: 70px;
   margin-top: 10px;
   margin-left: 20px;
 }
 
+#text_posts {
+  color: antiquewhite;
+  font-weight: 700;
+  font-size: 30px;
+  vertical-align: super;
+}
 .categorias_text{
   margin-top: 20px;
   text-align: center;
 }
-
+/*footer*/
 footer{
   margin-left: 30px;
   margin-bottom: 50px;
   margin-top: 50px;
+  font-weight: 700;
+  color: beige;
 }
 .footer_text1 {
   margin-top: 30px;
