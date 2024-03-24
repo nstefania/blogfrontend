@@ -27,6 +27,7 @@ img {
 
 h2{
   font-weight: 700;
+  margin-left: 50px;
 }
 
 .card-title {
@@ -40,10 +41,7 @@ h2{
   border-radius: 50%;
 }
 
-.main__container_general1{
-  height: 500px;
-  width: 1300px;
-  /*background-color: aqua;*/
+.main__container_novedades1{
   margin-left: 100px;
   display: flex;
   
@@ -63,9 +61,8 @@ h2{
 
 
 .main__container_novedades2{
-  height: 500px;
+  height: 450px;
   width: 500px;
-
   padding-left: 30px;
   padding-top: 30px;
   display: flex;
@@ -76,7 +73,7 @@ h2{
   object-fit: cover;
 }
 
-.novedades2_card-body {
+.card__card-body {
   display: inline-block;
   padding-left: 10px;
   padding-top: 20px;
@@ -86,7 +83,7 @@ h2{
 
 
 .main__container_populares {
-  height: 800px;
+  height: 750px;
   width: 1300px;
   /*background-color: chartreuse;*/
   margin-left: 100px;
@@ -95,7 +92,7 @@ h2{
 
 .container_populares {
   height: 600px;
-  width: 700px;
+  width: 650px;
   /*background-color: brown;*/
   float: left;
   display: block;
@@ -103,7 +100,7 @@ h2{
 }
 
 .populares__card{
-  margin-left: 50px;
+  margin-left: 20px;
   margin-top: 50px;
   float: left;
 }
@@ -120,16 +117,16 @@ h2{
   float: left;
   height: 500px;
   width: 500px;
-  margin-left: 100px;
+  margin-left: 50px;
   /*background-color: burlywood;*/
   display: block;
 }
 
-.categoria {
+.categorias {
   margin-top: 50px;
 }
 
-.categoria__posts {
+.categoria__post {
   width: 350px;
   height: 80px;
   margin-left: 30px;
@@ -137,32 +134,32 @@ h2{
   border-radius: 1em;
 }
 
-.post--red {
+.categoria--red {
   background-color: #E93E30;
 }
-.post--yellow {
+.categoria--yellow {
   background-color:#F7E018;
 }
-.post--blue {
+.categoria--blue {
   background-color: #299ED5;
 }
-.post--grey {
+.categoria--grey {
   background-color: #292C33;
 }
-.post--green {
+.categoria--green {
   background-color: #67C770;
 }
-.post--purple {
+.categoria--purple {
   background-color: #563D7C;
 }
 
-#categoria__img {
+.categoria__img {
   width: 50px;
   margin-top: 10px;
   margin-left: 20px;
 }
 
-#categoria__span {
+.categoria__span {
   color: antiquewhite;
   font-weight: 700;
   font-size: 30px;
@@ -185,7 +182,7 @@ footer{
 }
 .footer__text2 {
   margin-top: 30px;
-  margin-right: 180px;
+  margin-right: 300px;
   float: right;
 
 
