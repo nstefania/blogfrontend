@@ -11,21 +11,36 @@ body, * {
 }
 
 header {
-  padding-left: 30px;
+  padding-left: 100px;
   padding-top: 15px;
   font-weight: 700;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
+hr{
+  border: 1px solid rgb(88, 86, 86);
+
+}
 img {
   border-radius: 1em
 }
 
+h2{
+  font-weight: 700;
+}
+
+.card-title {
+  font-weight: 400;
+}
+
+.text__span {
+  font-weight: 500;
+}
 #logo {
   border-radius: 50%;
 }
 
-.container_general1{
+.main__container_general1{
   height: 500px;
   width: 1300px;
   /*background-color: aqua;*/
@@ -47,7 +62,7 @@ img {
 }
 
 
-.container_novedades2{
+.main__container_novedades2{
   height: 500px;
   width: 500px;
 
@@ -70,7 +85,7 @@ img {
 /*div2 populares*/
 
 
-.container_general2 {
+.main__container_general2 {
   height: 800px;
   width: 1300px;
   /*background-color: chartreuse;*/
@@ -79,7 +94,7 @@ img {
 }
 
 .container_populares {
-  height: 800px;
+  height: 600px;
   width: 700px;
   /*background-color: brown;*/
   float: left;
@@ -101,16 +116,19 @@ img {
 
 /*categorias*/
 
-.container_categorias {
+.main__container_categorias {
   float: left;
-  height: 800px;
+  height: 500px;
   width: 500px;
   margin-left: 100px;
   /*background-color: burlywood;*/
   display: block;
 }
 
-.container_posts1 {
+.categoria_posts {
+  margin-top: 50px;
+}
+.categoria_posts1 {
   width: 350px;
   height: 80px;
   background-color: #E93E30;
@@ -119,7 +137,7 @@ img {
   border-radius: 1em;
   
 }
-.container_posts2 {
+.categoria_posts2 {
   width: 350px;
   height: 80px;
   background-color:#F7E018;
@@ -128,7 +146,7 @@ img {
   border-radius: 1em;
   
 }
-.container_posts3 {
+.categoria_posts3 {
   width: 350px;
   height: 80px;
   background-color: #299ED5;
@@ -137,7 +155,7 @@ img {
   border-radius: 1em;
   
 }
-.container_posts4 {
+.categoria_posts4 {
   width: 350px;
   height: 80px;
   background-color: #292C33;
@@ -146,7 +164,7 @@ img {
   border-radius: 1em;
   
 }
-.container_posts5 {
+.categoria_posts5 {
   width: 350px;
   height: 80px;
   background-color: #67C770;
@@ -155,7 +173,7 @@ img {
   border-radius: 1em;
   
 }
-.container_posts6 {
+.categoria_posts6 {
   width: 350px;
   height: 80px;
   background-color: #563D7C;
@@ -164,13 +182,13 @@ img {
   border-radius: 1em;
   
 }
-#logocategoria {
+#categoria__img {
   width: 50px;
   margin-top: 10px;
   margin-left: 20px;
 }
 
-#text_posts {
+#categoria__span {
   color: antiquewhite;
   font-weight: 700;
   font-size: 30px;
@@ -182,20 +200,20 @@ img {
 }
 /*footer*/
 footer{
-  margin-left: 30px;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 30px;
   font-weight: 700;
   color: beige;
 }
-.footer_text1 {
+.footer__text1 {
   margin-top: 30px;
   margin-right: 30px
 }
-.footer_text2 {
+.footer__text2 {
   margin-top: 30px;
-  margin-right: 30px;
+  margin-right: 180px;
   float: right;
+
 
 }
 
