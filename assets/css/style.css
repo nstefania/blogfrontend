@@ -85,7 +85,7 @@ h2{
 /*div2 populares*/
 
 
-.main__container_general2 {
+.main__container_populares {
   height: 800px;
   width: 1300px;
   /*background-color: chartreuse;*/
@@ -102,13 +102,13 @@ h2{
   
 }
 
-.card_populares{
+.populares__card{
   margin-left: 50px;
   margin-top: 50px;
   float: left;
 }
 
-.card-img-top_populares {
+.card__img-top {
   width: 250px;
   height: 150px;
   object-fit: cover;
@@ -125,63 +125,37 @@ h2{
   display: block;
 }
 
-.categoria_posts {
+.categoria {
   margin-top: 50px;
 }
-.categoria_posts1 {
+
+.categoria__posts {
   width: 350px;
   height: 80px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 1em;
+}
+
+.post--red {
   background-color: #E93E30;
-  margin-left: 30px;
-  margin-top: 20px;
-  border-radius: 1em;
-  
 }
-.categoria_posts2 {
-  width: 350px;
-  height: 80px;
+.post--yellow {
   background-color:#F7E018;
-  margin-left: 30px;
-  margin-top: 20px;
-  border-radius: 1em;
-  
 }
-.categoria_posts3 {
-  width: 350px;
-  height: 80px;
+.post--blue {
   background-color: #299ED5;
-  margin-left: 30px;
-  margin-top: 20px;
-  border-radius: 1em;
-  
 }
-.categoria_posts4 {
-  width: 350px;
-  height: 80px;
+.post--grey {
   background-color: #292C33;
-  margin-left: 30px;
-  margin-top: 20px;
-  border-radius: 1em;
-  
 }
-.categoria_posts5 {
-  width: 350px;
-  height: 80px;
+.post--green {
   background-color: #67C770;
-  margin-left: 30px;
-  margin-top: 20px;
-  border-radius: 1em;
-  
 }
-.categoria_posts6 {
-  width: 350px;
-  height: 80px;
+.post--purple {
   background-color: #563D7C;
-  margin-left: 30px;
-  margin-top: 20px;
-  border-radius: 1em;
-  
 }
+
 #categoria__img {
   width: 50px;
   margin-top: 10px;
